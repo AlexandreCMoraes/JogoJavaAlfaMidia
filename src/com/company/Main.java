@@ -25,7 +25,7 @@ public class Main {
             System.out.println(("x = " + x + ", e y = " + y));
             //ENQUANTO NAO FOR DIGITADO FIM, O PROGRAMA CONTINUA RODANDO
             if(entrada.equals("FIM")) break;
-            mapa.disparo(x,y);
+            continuarPartida =  mapa.disparo(x,y);
             mapa.desenhaCenario();
         }
     }
